@@ -1,0 +1,13 @@
+go 1.18
+
+use (
+	./channels
+	./generic
+	./goroutines
+	./hello_world
+	./mongo
+	./mymath
+	./race-conditions
+	./server
+	./test
+)
