@@ -20,7 +20,6 @@ const colName = "watchlist"
 var collection *mongo.Collection
 
 func init() {
-	fmt.Println("uri", mongoUri)
 	// client option
 	clientOptions := options.Client().ApplyURI(mongoUri)
 	
