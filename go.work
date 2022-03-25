@@ -1,6 +1,7 @@
 go 1.18
 
 use (
+	./bookstore
 	./channels
 	./generic
 	./goroutines
@@ -8,7 +9,6 @@ use (
 	./mongo
 	./mymath
 	./race-conditions
-	./server
 	./site
 	./test
 )
