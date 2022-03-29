@@ -10,5 +10,7 @@ use (
 	./mymath
 	./race-conditions
 	./site
+	./slack-age-bot
+	./slack-file-bot
 	./test
 )
