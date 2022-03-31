@@ -3,6 +3,7 @@ go 1.18
 use (
 	./bookstore
 	./channels
+	./email-check-tool
 	./generic
 	./goroutines
 	./hello_world
