@@ -5,6 +5,7 @@ use (
 	./channels
 	./email-check-tool
 	./generic
+	./go-fiber-crm
 	./goroutines
 	./hello_world
 	./mongo
