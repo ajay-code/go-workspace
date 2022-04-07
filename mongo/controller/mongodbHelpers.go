@@ -29,11 +29,7 @@ func init() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("mongodb connection success")
-
 	collection = client.Database(dbName).Collection(colName)
-
-	fmt.Println("collection ref is ready")
 }
 
 func insertOneMovie(movie model.Netflix) *mongo.InsertOneResult {
@@ -43,10 +39,7 @@ func insertOneMovie(movie model.Netflix) *mongo.InsertOneResult {
 		log.Fatal(err)
 	}
 
-	fmt.Println("insert success")
-
 	return inserted
-
 }
 
 func updateOneMovie(movieId string) {
