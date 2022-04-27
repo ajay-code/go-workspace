@@ -15,7 +15,6 @@ func GetAllMyMovies(w http.ResponseWriter, r *http.Request) {
 	allMovies := getAllMovies()
 
 	json.NewEncoder(w).Encode(allMovies)
-
 }
 
 func CreateMovie(w http.ResponseWriter, r *http.Request) {
@@ -50,7 +49,6 @@ func DeleteMovieByID(w http.ResponseWriter, r *http.Request) {
 	deleteOneMovie(params["id"])
 
 	fmt.Fprintf(w, `{success: true, msg: \"deleted movie with id: %v\"}`, params["id"])
-
 }
 
 func DeleteAllMovie(w http.ResponseWriter, r *http.Request) {
